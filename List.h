@@ -9,6 +9,8 @@ class List{
 		virtual void insert(int pos, T e) =0;
 		//inserta e al final de la lista
 		virtual void append(T e)=0;
+
+		virtual T remove(int pos) = 0;
 		//inserta e al principio de la lista
 		virtual void prepend(T e)=0;
 		//devuelve el elemento en la posicion por (sin borrarlo)
